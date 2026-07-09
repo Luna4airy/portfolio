@@ -179,3 +179,38 @@ border-radius:15px;
 margin:15px 0 10px;
 color:#D95C95;
 }
+.contact-box{
+
+background:#FFF5F8;
+
+padding:30px;
+
+border-radius:20px;
+
+line-height:2.5;
+
+font-size:20px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.contact-box p{
+
+margin:10px 0;
+
+}
+
+footer{
+
+margin-top:40px;
+
+background:#F8D7E8;
+
+padding:20px;
+
+text-align:center;
+
+color:#6D4C5B;
+
+}
