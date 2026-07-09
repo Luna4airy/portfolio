@@ -115,3 +115,36 @@ width:180px;
 font-weight:bold;
 color:#C85A8E;
 }
+.edu-box{
+
+background:#FFF5F8;
+
+border-left:8px solid #F6A6C1;
+
+padding:20px;
+
+margin:20px 0;
+
+border-radius:15px;
+
+text-align:left;
+
+transition:.3s;
+
+}
+
+.edu-box:hover{
+
+transform:translateX(8px);
+
+background:#FFEAF2;
+
+}
+
+.edu-box h3{
+
+color:#D95C95;
+
+margin-bottom:10px;
+
+}
