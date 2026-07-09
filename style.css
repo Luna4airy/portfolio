@@ -74,3 +74,44 @@ border-radius:30px;
 .btn:hover{
 background:#D95C95;
 }
+.card{
+width:85%;
+max-width:900px;
+margin:40px auto;
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.card img{
+width:220px;
+height:220px;
+border-radius:50%;
+object-fit:cover;
+border:6px solid #F8D7E8;
+margin-bottom:20px;
+}
+
+.card h2{
+color:#D95C95;
+margin-bottom:25px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+td{
+padding:15px;
+border-bottom:1px solid #F8D7E8;
+text-align:left;
+}
+
+td:first-child{
+width:180px;
+font-weight:bold;
+color:#C85A8E;
+}
