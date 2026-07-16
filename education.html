@@ -17,7 +17,30 @@
 </head>
 
 <body>
+<div class="flowers"></div>
 
+<script>
+const flowers = document.querySelector(".flowers");
+
+function createFlower() {
+    const flower = document.createElement("div");
+    flower.classList.add("flower");
+
+    flower.innerHTML = "🌸";
+
+    flower.style.left = Math.random() * 100 + "vw";
+    flower.style.animationDuration = (Math.random() * 3 + 4) + "s";
+    flower.style.fontSize = (Math.random() * 15 + 20) + "px";
+
+    flowers.appendChild(flower);
+
+    setTimeout(() => {
+        flower.remove();
+    }, 7000);
+}
+
+setInterval(createFlower, 300);
+</script>
 <header>
 
 <h1>🌸 My Portfolio 🌸</h1>
