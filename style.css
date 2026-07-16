@@ -320,3 +320,48 @@ to{
         opacity: 0;
     }
 }
+body{
+    background:linear-gradient(135deg,#f8cdda,#c89cff);
+    font-family:'Poppins',sans-serif;
+}
+
+.card{
+    width:70%;
+    margin:auto;
+    padding:30px;
+    background:rgba(255,255,255,.7);
+    backdrop-filter:blur(12px);
+    border-radius:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+h2{
+    color:#b64fc8;
+}
+
+.skill{
+    margin:20px 0;
+}
+
+.bar{
+    width:100%;
+    height:18px;
+    background:#ffeaf5;
+    border-radius:20px;
+}
+
+.fill{
+    height:18px;
+    border-radius:20px;
+    background:linear-gradient(90deg,#ff9ecf,#e48cff);
+}
+
+.communication{width:80%;}
+.leader{width:60%;}
+.patient{width:70%;}
+.teamwork{width:70%;}
